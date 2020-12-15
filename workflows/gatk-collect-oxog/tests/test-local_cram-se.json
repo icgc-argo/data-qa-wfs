@@ -1,0 +1,12 @@
+{
+    "study_id": "TEST-PR",
+    "analysis_metadata": "data/e68d8ccb-1a34-4274-8b82-27a1b536f2ee.dna_alignment.payload.json",
+    "sequencing_files": [ 
+        "data/TEST-PR.DO250122.SA610149.wgs.20201215.aln.cram", 
+        "data/TEST-PR.DO250122.SA610149.wgs.20201215.aln.cram.crai" 
+    ],
+    "ref_genome_fa": "reference/tiny-grch38-chr11-530001-537000.fa",
+    "cpus": 2,
+    "mem": 2,
+    "tempdir": "NO_DIR"
+  }

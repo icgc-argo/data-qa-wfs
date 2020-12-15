@@ -1,0 +1,115 @@
+{
+  "analysisType": {
+    "name": "sequencing_alignment"
+  },
+  "studyId": "TEST-PR",
+  "workflow": {
+    "workflow_name": "DNA Seq Alignment",
+    "workflow_version": "1.5.4",
+    "genome_build": "GRCh38_hla_decoy_ebv",
+    "run_id": "sleepy_pauling",
+    "session_id": "38cd1447-f223-47e3-8228-c193ea45d96e",
+    "inputs": [
+      {
+        "analysis_type": "sequencing_experiment",
+        "input_analysis_id": null
+      }
+    ]
+  },
+  "files": [
+    {
+      "fileName": "TEST-PR.DO250122.SA610149.wgs.20201215.aln.cram",
+      "fileType": "CRAM",
+      "fileSize": 6488,
+      "fileMd5sum": "7bbec6fefe400a7a2258d4b4c1b2b83f",
+      "fileAccess": "controlled",
+      "dataType": "Aligned Reads",
+      "info": {
+        "data_category": "Sequencing Reads",
+        "analysis_tools": [
+          "BWA-MEM",
+          "biobambam2:bammarkduplicates2"
+        ]
+      }
+    },
+    {
+      "fileName": "TEST-PR.DO250122.SA610149.wgs.20201215.aln.cram.crai",
+      "fileType": "CRAI",
+      "fileSize": 64,
+      "fileMd5sum": "714ffdf5baced325ddc506ca606404d9",
+      "fileAccess": "controlled",
+      "dataType": "Aligned Reads Index",
+      "info": {
+        "data_category": "Sequencing Reads",
+        "analysis_tools": [
+          "BWA-MEM",
+          "biobambam2:bammarkduplicates2"
+        ]
+      }
+    }
+  ],
+  "samples": [
+    {
+      "submitterSampleId": "HCC1143_BAM_INPUT",
+      "matchedNormalSubmitterSampleId": null,
+      "sampleType": "Total DNA",
+      "specimen": {
+        "submitterSpecimenId": "HCC1143_BAM_INPUT",
+        "tumourNormalDesignation": "Normal",
+        "specimenTissueSource": "Blood derived",
+        "specimenType": "Cell line - derived from normal"
+      },
+      "donor": {
+        "gender": "Female",
+        "submitterDonorId": "HCC1143"
+      }
+    }
+  ],
+  "experiment": {
+    "submitter_sequencing_experiment_id": "TEST_EXP1",
+    "sequencing_center": "EXT",
+    "platform": "ILLUMINA",
+    "platform_model": "HiSeq 2000",
+    "experimental_strategy": "WGS",
+    "sequencing_date": "2014-12-12"
+  },
+  "read_group_count": 3,
+  "read_groups": [
+    {
+      "submitter_read_group_id": "C0HVY.2",
+      "platform_unit": "74_8a",
+      "is_paired_end": false,
+      "file_r1": "C0HVY.2_r1.fq.gz",
+      "file_r2": null,
+      "read_length_r1": 150,
+      "read_length_r2": null,
+      "insert_size": null,
+      "sample_barcode": null,
+      "library_name": "Pond-147580"
+    },
+    {
+      "submitter_read_group_id": "D0RE2.1",
+      "platform_unit": "74_8b",
+      "is_paired_end": false,
+      "file_r1": "D0RE2.1_r1.fq.gz",
+      "file_r2": null,
+      "read_length_r1": 150,
+      "read_length_r2": null,
+      "insert_size": null,
+      "sample_barcode": null,
+      "library_name": "Pond-147580"
+    },
+    {
+      "submitter_read_group_id": "D0RH0.2",
+      "platform_unit": "74_8c",
+      "is_paired_end": false,
+      "file_r1": "D0RH0.2_r1.fq.gz",
+      "file_r2": null,
+      "read_length_r1": 150,
+      "read_length_r2": null,
+      "insert_size": null,
+      "sample_barcode": null,
+      "library_name": "Pond-147580"
+    }
+  ]
+}
